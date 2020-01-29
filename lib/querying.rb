@@ -4,7 +4,7 @@ def select_books_titles_and_years_in_first_series_order_by_year
   JOIN series 
   ON books.series_id = series.id 
   GROUP BY books.title
-  ORDER BY books.year DESC LIMIT 3;"
+  ORDER BY books.year ASC LIMIT 3;"
 end
 
 def select_name_and_motto_of_char_with_longest_motto
