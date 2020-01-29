@@ -7,6 +7,3 @@ subgenre_id INTEGER
 
 
 
-CREATE  TABLE chracters (
-id INTEGER PRIMARY KEY,
-name )
